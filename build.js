@@ -561,6 +561,7 @@ const generateWebMD = async (tree, options) => {
         name: options.PROJECT_NAME,
         repo: options.REPO_NAME,
         loadSidebar: true,
+        basePath: options.BASE_PATH,
         auto2top: true,
         homepage: `${options.WEB_FILE_NAME}.md`,
         plantuml: {

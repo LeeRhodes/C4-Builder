@@ -24,6 +24,7 @@ Generate website: ${currentConfiguration.GENERATE_WEBSITE !== undefined ? chalk.
             `Website docsify theme: ${currentConfiguration.WEB_THEME ? chalk.green(currentConfiguration.WEB_THEME) : chalk.red('not set')}`
             : ''}
 Repository Url: ${currentConfiguration.REPO_NAME ? chalk.green(currentConfiguration.REPO_NAME) : chalk.red('not set')}
+Base Path: ${currentConfiguration.BASE_PATH ? chalk.green(currentConfiguration.BASE_PATH) : chalk.red('not set')}
 Include breadcrumbs: ${currentConfiguration.INCLUDE_BREADCRUMBS !== undefined ? chalk.green(currentConfiguration.INCLUDE_BREADCRUMBS) : chalk.red('not set')}
 
 PlantUML version: ${currentConfiguration.PLANTUML_VERSION !== undefined ? chalk.green(currentConfiguration.PLANTUML_VERSION) : chalk.red('not set')}

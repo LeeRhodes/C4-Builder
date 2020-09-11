@@ -37,6 +37,7 @@ const getOptions = conf => {
         DIST_FOLDER: conf.get('distFolder'),
         PROJECT_NAME: conf.get('projectName'),
         REPO_NAME: conf.get('repoUrl'),
+        BASE_PATH: conf.get('basePath'),
         HOMEPAGE_NAME: conf.get('homepageName'),
         WEB_THEME: conf.get('webTheme'),
         INCLUDE_NAVIGATION: conf.get('includeNavigation'),
